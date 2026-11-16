@@ -1,0 +1,6 @@
+# workflow_settings.yaml
+defaultProject: mv-dwh-marktvizier-tb
+defaultLocation: EU
+defaultDataset: staging
+defaultAssertionDataset: dataform_assertions
+dataformCoreVersion: 3.0.0
