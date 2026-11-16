@@ -1,0 +1,2 @@
+#In SQL server zet je hier de kwaliteitscontroles
+#Deze kwaliteitscontroles zitten geintegreerd in BigQuery via Dataform Assertions in de configuratieblokken in definitions/; losse controles in 04_tests/
