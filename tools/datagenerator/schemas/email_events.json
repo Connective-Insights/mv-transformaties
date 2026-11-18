@@ -1,0 +1,17 @@
+[
+ {
+  "name": "payload",
+  "type": "JSON",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "geladen_voor_datum",
+  "type": "DATE",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "dwh_geladen_op",
+  "type": "TIMESTAMP",
+  "mode": "NULLABLE"
+ }
+]

@@ -1,0 +1,37 @@
+[
+ {
+  "name": "click_view_gclid",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "segments_date",
+  "type": "DATE",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "campaign_id",
+  "type": "INTEGER",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "segments_device",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "click_view_ad_group_ad",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "_DATA_DATE",
+  "type": "DATE",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "_LATEST_DATE",
+  "type": "DATE",
+  "mode": "NULLABLE"
+ }
+]

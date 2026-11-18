@@ -1,0 +1,75 @@
+[
+ {
+  "name": "klant_id",
+  "type": "INTEGER",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "voornaam",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "achternaam",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "email",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "postcode",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "plaats",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "land",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "nieuwsbrief_opt_in",
+  "type": "BOOLEAN",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "is_gast",
+  "type": "BOOLEAN",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "aangemaakt_op",
+  "type": "TIMESTAMP",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "gewijzigd_op",
+  "type": "TIMESTAMP",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "datastream_metadata",
+  "type": "RECORD",
+  "mode": "NULLABLE",
+  "fields": [
+   {
+    "name": "uuid",
+    "type": "STRING",
+    "mode": "NULLABLE"
+   },
+   {
+    "name": "source_timestamp",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Tijdstip van de wijziging in de bron (ms sinds 1970, UTC)"
+   }
+  ]
+ }
+]

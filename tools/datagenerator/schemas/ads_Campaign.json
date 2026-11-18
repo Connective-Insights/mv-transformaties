@@ -1,0 +1,37 @@
+[
+ {
+  "name": "campaign_id",
+  "type": "INTEGER",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "campaign_name",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "campaign_status",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "campaign_advertising_channel_type",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "customer_id",
+  "type": "INTEGER",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "_DATA_DATE",
+  "type": "DATE",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "_LATEST_DATE",
+  "type": "DATE",
+  "mode": "NULLABLE"
+ }
+]

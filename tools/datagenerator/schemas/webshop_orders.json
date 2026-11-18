@@ -1,0 +1,80 @@
+[
+ {
+  "name": "order_id",
+  "type": "INTEGER",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "klant_id",
+  "type": "INTEGER",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "besteld_op",
+  "type": "TIMESTAMP",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "status",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "betaalmethode",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "kortingscode",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "verzendkosten_incl_btw",
+  "type": "NUMERIC",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "verzonden_op",
+  "type": "TIMESTAMP",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "is_testorder",
+  "type": "BOOLEAN",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "valuta",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "land_levering",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "gewijzigd_op",
+  "type": "TIMESTAMP",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "datastream_metadata",
+  "type": "RECORD",
+  "mode": "NULLABLE",
+  "fields": [
+   {
+    "name": "uuid",
+    "type": "STRING",
+    "mode": "NULLABLE"
+   },
+   {
+    "name": "source_timestamp",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Tijdstip van de wijziging in de bron (ms sinds 1970, UTC)"
+   }
+  ]
+ }
+]
